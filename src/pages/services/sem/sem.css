@@ -1,0 +1,55 @@
+
+
+body{
+    margin: 0;padding: 0;box-sizing: border-box;
+}
+.Sem{
+    /* background-image:  linear-gradient(
+        320deg,
+        rgb(104, 173, 106),
+        rgb(238, 248, 248),
+        rgb(244, 247, 247),
+       
+        rgba(129, 125, 125, 0.67)
+      ); */
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    border-bottom: 1px solid rgb(233, 229, 229);
+}
+.sem:hover{
+    background-color:  linear-gradient(
+        320deg,
+        
+        rgb(104, 173, 106),
+        rgb(227, 231, 231),
+        rgb(244, 247, 247),
+       
+        rgba(17, 17, 17, 0.67)
+      );
+      
+}
+.semp{
+    
+    color: rgb(184, 134, 11);
+    
+    font-size: 20px;
+    font-weight: 300;
+    font-family: "poppins",sans-serif;
+}
+.semmain{
+    color: darkgoldenrod;
+    border-bottom: 1px solid rgb(168, 164, 164);
+    font-size: 34px;
+margin-bottom: 10px;
+
+}
+.semright{
+width: 25%;
+
+display: flex;align-items: center;justify-content: center;
+}
+.semleft{
+width:76%;
+margin: 20px;
+}

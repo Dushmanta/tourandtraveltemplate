@@ -1,0 +1,79 @@
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.offercontainer{
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  min-height: 100vh;
+  background-color:blue;
+  position: relative;
+  max-width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
+  grid-template-rows: repeat(minmax(100px,auto));
+  margin: 40px;
+  grid-auto-flow:dense ;
+  grid-gap : 10px;
+
+}
+.offercontainer .offerbox{
+  border-radius: 5px;
+  background: rgba(10, 10, 10, 0.89);
+  -webkit-box-shadow: 4px 3px 5px -3px #000000; 
+box-shadow: 4px 3px 5px -3px #000000;
+  padding: 20px;
+  display: grid;
+  font-size: 20px;
+  place-items: center;
+  text-align: center;
+  color: aliceblue;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.offercontainer .offerbox:hover{
+ background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+  transform: scale(1.02);
+  transition: 0.3s;
+}
+.box-img{
+  object-fit: cover;
+  position: relative;
+  width:75px;
+  margin-bottom: 10px;
+}
+.offerbox:nth-child(1){
+  grid-column: span 2;
+grid-row: span 1;
+}
+.offerbox:nth-child(2){
+  grid-column: span 1;
+grid-row: 2;  
+}
+.offerbox:nth-child(4){
+  grid-column: span 1;
+grid-row: 2;  
+}
+.offerbox:nth-child(5){
+  grid-column: span 2;
+grid-row: 2;  
+}
+.box-p{
+  color: rgb(247, 244, 244);
+  font-weight: 200;
+  font-family: 'Josefin Sans', sans-serif;
+  word-spacing: 1px;
+  
+}
+@media screen and (max-width:1288px) {
+  .offercontainer{
+    display: none;
+  }
+  
+}

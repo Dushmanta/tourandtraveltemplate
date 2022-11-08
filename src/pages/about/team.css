@@ -1,0 +1,132 @@
+.teamdev {
+  margin-top: 50px;
+}
+.teamadder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.logoimg3 {
+  /* background-color: rgb(17, 17, 17); */
+  width: 250px;
+  margin-bottom: 20px;
+  /* border: 10px solid teal; */
+  border-radius: 50%;
+}
+.teamlogos1:hover {
+  transform: scale(1.02);
+
+  transition: 0.3s;
+}
+.teamlogos2:hover {
+  transform: scale(1.02);
+  transition: 0.3s;
+}
+.teamlogos3:hover {
+  transform: scale(1.02);
+  transition: 0.3s;
+}
+.teamlogos4:hover {
+  transform: scale(1.02);
+  transition: 0.3s;
+}
+.alllogo {
+  display: flex;
+  gap: 100px;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+.alllogo:hover {
+}
+.logotitle {
+  display: flex;
+  font-size: 20px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  font-weight: 900;
+  border-bottom: 1px solid #000;
+  border-top: 1px solid #000;
+  margin-bottom: 5px;
+}
+.logotitle2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  color: #333;
+  font-weight: 500;
+}
+.rt {
+  display: flex;
+}
+.trv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: -60px;
+}
+.imgcollector {
+  width: 55%;
+  height: 520px;
+}
+.lert {
+  margin-bottom: 30px;
+  width: 80%;
+  font-size: 40px;
+  color: black;
+  text-align: left;
+}
+.lertv {
+  font-size: 15px;
+  width: 80%;
+  right: 0;
+  text-align: left;
+  margin-bottom: 50px;
+  color: #444;
+}
+@media screen and (max-width: 900px) {
+  .logoimg3 {
+    width: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .alllogo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 700px) {
+  .alllogo {
+    flex-direction: column;
+  }
+  .logoimg3 {
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 600px) {
+.rt{
+  flex-direction: column;
+}
+.imgcollector {
+  width: 100%;
+  object-fit: cover;
+  height: 520px;
+}
+.lert{
+  width: 100%;
+  padding: 0 10px;
+}
+}

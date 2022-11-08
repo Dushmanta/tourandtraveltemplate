@@ -1,0 +1,33 @@
+.former{
+    display: flex;
+    height: 100vh;
+    /* background-color: rgb(223, 57, 57); */
+ 
+
+}
+.formerbg{
+
+    width: 90vw;
+    margin: 50px auto;
+    border-radius: 20px;
+    height: 90vh;
+    background: linear-gradient(120deg,
+    rgba(240, 234, 234, 0.295),
+    rgba(252, 252, 252, 0.151)
+   
+  ),
+  
+  url("https://images.pexels.com/photos/33999/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940")
+    center;
+    background-size: cover;
+background-repeat: no-repeat;
+-webkit-box-shadow: 5px 5px 15px 5px #000000; 
+box-shadow: 5px 5px 15px 5px #000000;
+}
+.formerco{
+    
+
+    display: flex;align-items: center;justify-content: center;
+    padding: 20px 20px;
+}
+

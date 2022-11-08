@@ -1,0 +1,39 @@
+.contact{
+  background: linear-gradient(120deg,
+    rgba(17, 17, 17, 0.603),
+    rgba(5, 5, 5, 0.4)
+   
+  ),
+  
+  url("https://images.pexels.com/photos/1714208/pexels-photo-1714208.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940")
+    center;
+    
+background-size: cover;
+background-repeat: no-repeat;
+width: 100%;
+overflow:hidden;
+height: 100vh;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.contactleft{
+  display: flex;align-items: center;justify-content: center;flex-direction: column;
+}
+.contactmain{
+  color: aliceblue;
+  font-size: 90px;
+  font-family: "poppins";
+  font-weight: 900;
+  border-bottom: 4px solid #fff;
+  margin-bottom: 10px;
+  
+}
+.contactpar{
+  color: aliceblue;
+  width: 50%;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 500;
+  font-family: "poppins";
+}

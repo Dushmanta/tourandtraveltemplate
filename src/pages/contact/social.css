@@ -1,0 +1,87 @@
+.social {
+  display: flex;
+  height: 100vh;
+margin-top: 80px;
+  width: 100%;
+  background: linear-gradient(120deg, rgb(14, 13, 13), rgba(5, 5, 5, 0.685)),
+    url("https://images.pexels.com/photos/2225221/pexels-photo-2225221.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940")
+      center;
+
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.socialright {
+  flex: 1;
+  color: aliceblue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0px 10px;
+}
+.socialleft {
+  flex: 1;
+  color: aliceblue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.tti {
+  font-size: 90px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  font-family: "poppins", sans-serif;
+  text-align: left;
+  margin-bottom: 20px;
+}
+.ttpar {
+  width: 70%;
+  font-size: 30px;
+  text-align: center;
+}
+.hul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+}
+.ali {
+  margin: 20px 20px;
+  font-size: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+}
+ali:hover {
+  background-color: #000;
+}
+.hli {
+}
+.ant {
+  font-size: 25px;
+  width: 80%;
+  font-family: "poppins", sans-serif;
+  font-weight: 100;
+  margin-bottom: 30px;
+  text-align: left;
+  margin-top: 20px;
+}
+.mse {
+  font-size: 25px;
+  font-family: "poppins";
+  border-bottom: 1px solid #fff;
+  letter-spacing: 4px;
+  cursor: pointer;
+  font-style: italic;
+}
+@media screen and (max-width:838px) {
+    .social{
+        flex-direction: column;
+        height: auto;
+    }
+    
+}

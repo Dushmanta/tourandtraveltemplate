@@ -1,0 +1,65 @@
+.choosen{
+    
+    color: black;
+    display: flex;
+    margin-bottom: 20px;
+}
+.choosenimg{
+    width: 500px;
+    margin-left: 150px;
+    gap: 3;
+}
+.choosenright{
+    flex:1;
+
+}
+.choosenleft{
+    flex: 1;
+    margin-left: 50px;
+    
+}
+.choosepar{
+    width: 80%;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: "poppins";
+    margin-bottom: 20px;
+
+}
+.setterbg{
+  
+    width: 80%;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: "poppins";
+    color: rgb(17, 134, 129);
+    margin-bottom: 20px;
+}   
+.fg
+{
+    clip-path: inset(0 49% 0 46%);
+    color: aqua;
+    width: 100px;
+    height: 300px;
+    position: absolute;
+}
+.choosebtn{
+    padding:20px 30px;
+    background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+    border: none;
+    color: white;
+    font-weight: 500;
+    font-size: 16px;
+    border-radius: 39px;
+    margin: 10px 0px;
+    width: 200px;
+    letter-spacing: 3px;
+    font-family: "poppins",sans-serif;
+    cursor: pointer;
+
+}
+@media screen and (max-width:677px){
+    .choosen{
+        flex-direction: column;
+    }
+}
